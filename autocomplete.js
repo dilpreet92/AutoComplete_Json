@@ -5,7 +5,6 @@ function Autocomplete(element) {
 
 Autocomplete.prototype.init = function() {
   this.loadJSON();
-  this.bindEvents();
 };
 
 Autocomplete.prototype.loadJSON = function() {
